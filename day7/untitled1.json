@@ -1,0 +1,7 @@
+{   "student":{
+   "first_name":"shamim",
+   "last_name":"banu",
+   "branch":"ece",
+   "contact_no":[{"mobile_no":94686123,"phn_no":242301}]
+   }
+}
