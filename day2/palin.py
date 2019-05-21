@@ -7,14 +7,7 @@ Created on Wed May  8 17:59:11 2019
 
 #pallindromic integer
 list1=('1','35','44','-45','3')
-for item in list1:
-    if int(item)<0:
-        print("false")
-        break
-for value in item:
-    if value == value[::-1]:
-        print("true")
-        break
+
 
 all_pos = True
 palindrome = False
