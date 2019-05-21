@@ -2,7 +2,7 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+This is a temporary script file."""
 #gas mileage calculator
 
 distance=100
