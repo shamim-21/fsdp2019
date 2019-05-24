@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_a
 
 
 Scrap the data from State/Territory and National Share (%) columns for top 6 
-states basis on National Share (%). 
+states basis on National Share (%). c
 Create a Pie Chart using MatPlotLib and explode the state with largest national share %.
 
 """

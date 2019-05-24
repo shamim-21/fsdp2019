@@ -123,6 +123,7 @@ problem Statement:
 To perfrom analysis on the Telecom industry churn dataset -
 1. Predict the count of Churned customer availing both voice mail plan and international plan schema
 2. Total charges for international calls made by churned and non-churned customer and visualize it
+
 3. Predict the state having highest night call minutes for churned customer
 4. Visualize -
     a. the most popular call type among churned user
