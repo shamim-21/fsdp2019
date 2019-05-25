@@ -17,6 +17,7 @@ for item in list1:
     else:
         x=dict1.get(item) 
         dict1[item]=x+1 
+print(dict1)
 
 #for i in list1:
 #    if i in new_list:
