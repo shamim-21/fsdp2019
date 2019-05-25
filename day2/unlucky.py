@@ -1,14 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 19 15:16:19 2019
+Spyder Editor
 
-@author: Sammu
+This is a temporary script file.
 """
 
-number=input("enter number")
-x=number.split(",")
-list1=[]
-list1=[int(i) for i in x]
-for x in list1:
-    if x==13:
+str1="13,1,2,13,2,1,13"
+y=str1.split(",")
+total=0
+
+i=0
+while i < len(y):
+    print(i)
+    if int(y[i])==13:
+        i=i+2
         
+    else:
+        total=total+int(y[i])
+        i=i+1
+     
+    
+    
