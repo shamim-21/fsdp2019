@@ -3,6 +3,7 @@
 Created on Fri May 10 17:00:31 2019
 
 @author: Sammu"""
+
 with open("absent.txt","w")as file:
     i=0
     while (i<25):

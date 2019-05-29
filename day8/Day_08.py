@@ -30,7 +30,7 @@ import requests
 # parse that using bs4 to make the students understand with title, div etc
 
 with open("simple.html") as html_file :
-  soup = BeautifulSoup(html_file, "lxml")
+    soup = BeautifulSoup(html_file, "lxml")
     
 print (soup)
 
@@ -72,9 +72,10 @@ for article in soup.find_all("div") :
 
 # Reading from the Internet
 from bs4 import BeautifulSoup   
+import requests
+url ="http://httpbin.org/html"
 
-
-source = requests.get("http://httpbin.org/html").text
+source = requests.get(url).text
 print(source)
 
 soup = BeautifulSoup(source,"lxml")
@@ -173,13 +174,13 @@ wiki = "https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals
 
 
 #driver = webdriver.Firefox(executable_path=r'C:/Users/hp/Downloads/geckodriver')
-driver = webdriver.Chrome("C:/Users/rohit/Downloads/chromedriver_win32/chromedriver.exe")
+driver = webdriver.Chrome("C:/Users/Sammu/Desktop/ML/chromedriver.exe")
 
 driver.get(wiki)    # Opening the submission url
 
 
 
-right_table=driver.find_element_by_class_name('wikitable')
+right_table=driver.find_element_by_xpath('//*[@id="mw-content-text"]/div/table[2]')
 
 
 #Generate lists
