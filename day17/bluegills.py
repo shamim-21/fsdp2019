@@ -17,6 +17,7 @@ from sklearn.linear_model import LinearRegression
 lin_reg_1 = LinearRegression()
 lin_reg_1.fit(features, labels)
 lin_reg_1.score(features, labels)
+#for accuracy which is between 0 to 1
 plt.scatter(features, labels, color = 'red')
 plt.plot(features, lin_reg_1.predict(features), color = 'blue')
 plt.title('linear regression')

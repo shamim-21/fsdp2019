@@ -17,8 +17,10 @@ import statsmodels.api as sm
 features = sm.add_constant(features)
 features_opt = features[:, [0,1,2]]
 regressor_OLS = sm.OLS(endog = labels, exog = features_opt).fit()
+#for coefficients,p values etc  
 regressor_OLS.summary()
 regressor_OLS.params
+#for coefficients
 print("both are significant for  student")
 
 
